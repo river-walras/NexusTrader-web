@@ -219,19 +219,7 @@ body {
 
 .hero-title .highlight {
     color: #dc2626;
-    position: relative;
-}
-
-.hero-title .highlight::after {
-    content: '';
-    position: absolute;
-    bottom: -4px;
-    left: 0;
-    right: 0;
-    height: 4px;
-    background: linear-gradient(90deg, #dc2626, #f87171);
-    border-radius: 2px;
-    animation: underlineExpand 1s ease-out 0.5s both;
+    white-space: nowrap;
 }
 
 .hero-description {
