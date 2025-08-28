@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NexusTrader - Professional Quantitative Trading Platform</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Alert Banner -->
+    <div class="alert-banner">
+        <div class="alert-content">
+            Experience professional-grade quantitative trading with NexusTrader. Open source framework trusted by institutions.
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="nav">
+                <div class="logo">
+                    <img src="logo-light.png" alt="NexusTrader Logo" class="logo-img">
+                </div>
+                <nav class="nav-menu">
+                    <a href="#features" class="nav-link">Features</a>
+                    <a href="#exchanges" class="nav-link">Exchanges</a>
+                    <a href="https://nexustrader.readthedocs.io/en/latest/" class="nav-link" target="_blank">Docs</a>
+                    <a href="https://github.com/Quantweb3-com/NexusTrader" class="nav-link" target="_blank">GitHub</a>
+                </nav>
+                <div class="nav-actions">
+                    <a href="#installation" class="btn btn-primary">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <main class="main">
+        <div class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h1 class="hero-title">
+                            NexusTrader is committed to professional
+                            <span class="highlight">quantitative trading</span>
+                            excellence.
+                        </h1>
+                        <p class="hero-description">
+                            We empower exceptional talents in quantitative finance, algorithmic trading, 
+                            and systematic strategies to seek breakthrough opportunities, push through 
+                            market boundaries, and apply cutting-edge technology to global financial markets.
+                        </p>
+                        <div class="hero-actions">
+                            <a href="https://nexustrader.readthedocs.io/en/latest/" class="btn btn-outline" target="_blank">
+                                View Documentation
+                            </a>
+                            <a href="https://github.com/Quantweb3-com/NexusTrader" class="btn btn-github" target="_blank">
+                                <svg class="github-icon" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                                </svg>
+                                Star on GitHub
+                            </a>
+                        </div>
+                    </div>
+                    <div class="hero-visual">
+                        <div class="floating-dots"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Installation Section -->
+        <section id="installation" class="installation-section">
+            <div class="container">
+                <div class="installation-content">
+                    <div class="installation-text">
+                        <h2 class="section-title">Installation</h2>
+                        <p class="section-subtitle">
+                            NexusTrader is seamlessly integrated with Python. It can be installed in minutes on most platforms.
+                        </p>
+                    </div>
+                    <div class="installation-code">
+                        <div class="code-block-container">
+                            <div class="code-header">
+                                <span class="code-language">Python</span>
+                                <button class="copy-btn" onclick="copyToClipboard('pip install -U nexustrader')">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <rect x="8" y="8" width="12" height="12" rx="2" ry="2"></rect>
+                                        <path d="M4 16c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2h8c1.1 0 2 .9 2 2"></path>
+                                    </svg>
+                                </button>
+                            </div>
+                            <div class="code-block">
+                                <code><span class="code-command">pip</span> <span class="code-flag">install</span> <span class="code-option">-U</span> <span class="code-package">nexustrader</span></code>
+                            </div>
+                        </div>
+                        <div class="installation-info">
+                            <p class="release-info">Latest release: NexusTrader 1.219.0 | System detected: <span id="system-info">macOS</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Code Example Section -->
+        <section class="code-example-section">
+            <div class="container">
+                <div class="code-example-header">
+                    <h2 class="section-title"><span class="highlight">Begin</span> with the Code</h2>
+                    <p class="section-subtitle">
+                        It starts with the code. Our developers are loving our <a href="https://github.com/Quantweb3-com/NexusTrader" class="inline-link">NexusTrader Package</a>: 
+                        the open source package to rapidly build trading algorithms across assets, brokerages, and exchanges. 
+                        We've hit over 400+ stars and over 6k downloads/month. Check out the <a href="https://nexustrader.readthedocs.io/en/latest/" class="inline-link">docs</a> too
+                    </p>
+                </div>
+                
+                <div class="code-example-content">
+                    <div class="code-example-demo">
+                        <div class="demo-code-block">
+                            <div class="demo-code-header">
+                                <div class="code-tabs">
+                                    <span class="code-tab active">strategy.py</span>
+                                </div>
+                            </div>
+                            <div class="demo-code-content">
+                                <pre><code><span class="keyword">class</span> <span class="class-name">Demo</span>(<span class="class-name">Strategy</span>):
+    <span class="keyword">def</span> <span class="function">__init__</span>(<span class="param">self</span>):
+        <span class="builtin">super</span>().__init__()
+        <span class="param">self</span>.<span class="method">subscribe_bookl1</span>(symbols=[<span class="string">"BTCUSDT-PERP.OKX"</span>])
+        <span class="param">self</span>.signal = <span class="boolean">True</span>
+
+    <span class="keyword">def</span> <span class="function">on_bookl1</span>(<span class="param">self</span>, bookl1: <span class="class-name">BookL1</span>):
+        <span class="keyword">if</span> <span class="param">self</span>.signal:
+            <span class="param">self</span>.<span class="method">create_order</span>(
+                symbol=<span class="string">"BTCUSDT-PERP.OKX"</span>,
+                side=<span class="class-name">OrderSide</span>.<span class="constant">BUY</span>,
+                type=<span class="class-name">OrderType</span>.<span class="constant">MARKET</span>,
+                amount=<span class="class-name">Decimal</span>(<span class="string">"0.1"</span>),
+            )
+            <span class="param">self</span>.<span class="method">create_order</span>(
+                symbol=<span class="string">"BTCUSDT-PERP.OKX"</span>,
+                side=<span class="class-name">OrderSide</span>.<span class="constant">SELL</span>,
+                type=<span class="class-name">OrderType</span>.<span class="constant">MARKET</span>,
+                amount=<span class="class-name">Decimal</span>(<span class="string">"0.1"</span>),
+            )
+            <span class="param">self</span>.signal = <span class="boolean">False</span></code></pre>
+                            </div>
+                        </div>
+                        <p class="demo-caption">Simple to use trading strategy example</p>
+                    </div>
+                    
+                    <div class="features-list">
+                        <div class="feature-item">
+                            <h3>Easy Code Integration</h3>
+                            <p>We make it easy to integrate your existing models without changing any of your code. Let us handle connecting with exchanges and data integrations seamlessly.</p>
+                        </div>
+                        <div class="feature-item">
+                            <h3>Optimized Order Execution</h3>
+                            <p>Our order execution system is extremely optimized for speed and efficiency. Deep optimization for algorithmic orders including TWAP, effectively reducing market impact costs.</p>
+                        </div>
+                        <div class="feature-item">
+                            <h3>Easy Exchange Switching</h3>
+                            <p>Production deployment can easily switch between different exchanges. Seamless connection to multiple exchanges with unified API architecture.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Supported Exchanges Section -->
+        <section id="exchanges" class="exchanges-section">
+            <div class="container">
+                <h2 class="section-title"><span class="highlight">Supported</span> Exchanges</h2>
+                <p class="section-subtitle">
+                    Connect to leading cryptocurrency exchanges with professional-grade integration
+                </p>
+                
+                <div class="exchanges-grid">
+                    <div class="exchange-card">
+                        <div class="exchange-logo">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Binance_Logo.svg/768px-Binance_Logo.svg.png" alt="Binance" class="exchange-img binance-logo">
+                        </div>
+                        <h3>Binance</h3>
+                        <p>World's largest crypto exchange by trading volume</p>
+                    </div>
+
+                    <div class="exchange-card">
+                        <div class="exchange-logo">
+                            <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/9a411426-3711-47d4-9c1a-dcf72973ddfc/dfj37e6-d8b49926-d115-4368-9de8-09a80077fb4f.png/v1/fill/w_1280,h_1280/okx_okb_logo_by_saphyl_dfj37e6-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTI4MCIsInBhdGgiOiJcL2ZcLzlhNDExNDI2LTM3MTEtNDdkNC05YzFhLWRjZjcyOTczZGRmY1wvZGZqMzdlNi1kOGI0OTkyNi1kMTE1LTQzNjgtOWRlOC0wOWE4MDA3N2ZiNGYucG5nIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.kH6v6nu55xLephOzAFFhD2uCYkmFdLsBoTkSuQvtBpo" alt="OKX" class="exchange-img okx-logo">
+                        </div>
+                        <h3>OKX</h3>
+                        <p>Leading global crypto exchange and derivatives platform</p>
+                    </div>
+
+                    <div class="exchange-card">
+                        <div class="exchange-logo">
+                            <img src="https://images.seeklogo.com/logo-png/49/2/bybit-logo-png_seeklogo-490318.png" alt="Bybit" class="exchange-img bybit-logo">
+                        </div>
+                        <h3>Bybit</h3>
+                        <p>Fast-growing derivatives and spot trading platform</p>
+                    </div>
+
+                    <div class="exchange-card">
+                        <div class="exchange-logo">
+                            <img src="https://avatars.githubusercontent.com/u/129421375?s=280&v=4" alt="HyperLiquid" class="exchange-img">
+                        </div>
+                        <h3>HyperLiquid</h3>
+                        <p>High-performance decentralized perpetuals exchange</p>
+                    </div>
+
+                    <div class="exchange-card">
+                        <div class="exchange-logo">
+                            <img src="https://s2.coinmarketcap.com/static/img/coins/200x200/11092.png" alt="Bitget" class="exchange-img">
+                        </div>
+                        <h3>Bitget</h3>
+                        <p>Global crypto derivatives and spot trading platform</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="features-section">
+            <div class="container">
+                <h2 class="section-title"><span class="highlight">Core</span> Features</h2>
+                <p class="section-subtitle">
+                    Professional-grade tools for institutional and retail quantitative trading
+                </p>
+                
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">🚀</div>
+                        <h3>Optimized Order Algorithms</h3>
+                        <p>Deep optimization for algorithmic orders including TWAP, effectively reducing market impact costs with custom execution signals.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">💰</div>
+                        <h3>Professional Arbitrage Support</h3>
+                        <p>Specialized optimization for funding rate arbitrage and cross-exchange arbitrage with real-time tracking of thousands of trading pairs.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">🛠️</div>
+                        <h3>Complete Trading Framework</h3>
+                        <p>Integrated position management, order management, fund management, and statistical analysis modules for seamless strategy development.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">⚡</div>
+                        <h3>High-Performance Architecture</h3>
+                        <p>Built with uvloop and picows for superior performance, delivering speeds up to 2-4 times faster than standard implementations.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">📊</div>
+                        <h3>Multi-Mode Trading</h3>
+                        <p>Event-driven, timer-based, and custom signal modes to support diverse trading strategies and requirements.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">🔗</div>
+                        <h3>Multi-Exchange Integration</h3>
+                        <p>Seamless connection to multiple exchanges with unified API and extensible architecture for additional platforms.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Documentation Section -->
+        <section id="documentation" class="documentation-section">
+            <div class="container">
+                <div class="documentation-content">
+                    <div class="documentation-text">
+                        <h2>Ready to Start Trading?</h2>
+                        <p>
+                            Get started with NexusTrader's comprehensive documentation, 
+                            featuring detailed guides, API references, and example strategies 
+                            to help you build professional quantitative trading systems.
+                        </p>
+                        <div class="documentation-stats">
+                            <div class="stat">
+                                <div class="stat-number">5+</div>
+                                <div class="stat-label">Exchanges</div>
+                            </div>
+                            <div class="stat">
+                                <div class="stat-number">350+</div>
+                                <div class="stat-label">Trading Pairs</div>
+                            </div>
+                            <div class="stat">
+                                <div class="stat-number">24/7</div>
+                                <div class="stat-label">Trading</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="documentation-actions">
+                        <a href="https://nexustrader.readthedocs.io/en/latest/" class="btn btn-large" target="_blank">
+                            View Documentation
+                        </a>
+                        <a href="https://github.com/Quantweb3-com/NexusTrader" class="btn btn-outline-large" target="_blank">
+                            Browse Source Code
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Product</h4>
+                    <ul>
+                        <li><a href="https://nexustrader.readthedocs.io/en/latest/">Documentation</a></li>
+                        <li><a href="https://github.com/Quantweb3-com/NexusTrader">GitHub</a></li>
+                        <li><a href="https://pypi.org/project/nexustrader/">PyPI Package</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Community</h4>
+                    <ul>
+                        <li><a href="https://discord.gg/BR8VGRrXFr">Discord</a></li>
+                        <li><a href="https://t.me/+6e2MtXxoibM2Yzlk">Telegram</a></li>
+                        <li><a href="https://x.com/quantweb3_ai">Twitter/X</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="mailto:quantweb3.ai@gmail.com">Contact</a></li>
+                        <li><a href="https://quantweb3.ai/subscribe/">VIP Support</a></li>
+                        <li><a href="https://github.com/Quantweb3-com/NexusTrader/issues">Issues</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 NexusTrader. Licensed under MIT License.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

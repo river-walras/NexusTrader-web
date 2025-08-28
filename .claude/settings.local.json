@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.okx.com)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
