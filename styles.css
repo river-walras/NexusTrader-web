@@ -198,10 +198,40 @@ body {
     line-height: 1.1;
     margin-bottom: 24px;
     color: #1f2937;
+    position: relative;
+    padding-left: 20px;
+}
+
+.hero-title::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 6px;
+    background: linear-gradient(180deg, #dc2626, #b91c1c);
+    border-radius: 3px;
 }
 
 .highlight {
     color: #000000;
+}
+
+.hero-title .highlight {
+    color: #dc2626;
+    position: relative;
+}
+
+.hero-title .highlight::after {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, #dc2626, #f87171);
+    border-radius: 2px;
+    animation: underlineExpand 1s ease-out 0.5s both;
 }
 
 .hero-description {
