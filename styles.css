@@ -126,13 +126,13 @@ body {
 
 .btn-outline {
     border: 2px solid #dc2626;
-    color: #dc2626;
-    background: transparent;
+    color: white;
+    background: #dc2626;
 }
 
 .btn-outline:hover {
-    background: #dc2626;
-    color: white;
+    background: transparent;
+    color: #dc2626;
     transform: translateY(-2px);
     box-shadow: 0 8px 25px rgba(220, 38, 38, 0.3);
 }
@@ -160,9 +160,15 @@ body {
     padding: 18px 36px;
     font-size: 18px;
     border-radius: 12px;
-    border: 2px solid #dc2626;
-    color: #dc2626;
-    background: transparent;
+    border: 2px solid #24292e;
+    color: white;
+    background: #24292e;
+}
+
+.btn-outline-large:hover {
+    background: #1a1e22;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(36, 41, 46, 0.3);
 }
 
 .github-icon {
@@ -172,10 +178,9 @@ body {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
-    background-image: url('map-with-locations.svg');
-    background-size: 50%;
-    background-position: 70% center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('bg.jpg');
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     min-height: 80vh;
     display: flex;
@@ -197,7 +202,7 @@ body {
     font-weight: 700;
     line-height: 1.1;
     margin-bottom: 24px;
-    color: #1f2937;
+    color: white;
     position: relative;
     padding-left: 20px;
 }
@@ -224,7 +229,7 @@ body {
 
 .hero-description {
     font-size: 1.25rem;
-    color: #6b7280;
+    color: white;
     margin-bottom: 32px;
     line-height: 1.7;
 }
@@ -743,8 +748,12 @@ body {
 /* Documentation Section */
 .documentation-section {
     padding: 100px 0;
-    background: #1f2937;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('bg2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     color: white;
+    position: relative;
 }
 
 .documentation-content {
@@ -758,6 +767,19 @@ body {
     font-weight: 700;
     margin-bottom: 24px;
     color: white;
+}
+
+.documentation-section h2,
+.stat-label {
+    color: white;
+}
+
+.documentation-section h2 {
+    color: #dc2626;
+}
+
+.stat-label {
+    color: #dc2626;
 }
 
 .documentation-section p {
@@ -801,7 +823,7 @@ body {
 
 /* Footer */
 .footer {
-    background: #111827;
+    background: #dc2626;
     color: white;
     padding: 60px 0 30px;
 }
@@ -817,7 +839,7 @@ body {
     font-size: 1.125rem;
     font-weight: 600;
     margin-bottom: 16px;
-    color: white;
+    color: black;
 }
 
 .footer-section ul {
@@ -829,7 +851,7 @@ body {
 }
 
 .footer-section a {
-    color: #9ca3af;
+    color: white;
     text-decoration: none;
     transition: color 0.3s ease;
 }
